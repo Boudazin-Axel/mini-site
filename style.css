@@ -58,19 +58,19 @@
         }
      
        table {
-           border-collapse: collapse; /* Colle les bordures ensemble */
-           width: 100%;               /* Prend toute la largeur */
+           border-collapse: collapse; 
+           width: 100%;               
        }
 
        th, td {
-            border: 1px solid black;   /* Bordure noire autour de chaque cellule */
-            padding: 8px;              /* Espace intérieur dans les cellules */
-            text-align: left;          /* Texte aligné à gauche */
+            border: 1px solid black;  
+            padding: 8px;              
+            text-align: left;          
        }
 
        th {
-            background-color: #f4a900; /* Fond orange comme le header */
-            color: white;              /* Texte blanc */
+            background-color: #f4a900; 
+            color: white;              
        }
 @media screen and (max-width: 500px) {
     section {
@@ -79,4 +79,5 @@
     aside {
         width: 100%;
     }
+
 }
