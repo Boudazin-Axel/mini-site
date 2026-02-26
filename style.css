@@ -1,0 +1,82 @@
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        header {
+            background-color: #f4a900;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 20px;
+        }
+
+        nav a.active {
+            background-color: #f4a900;
+            padding: 5px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        section {
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        aside {
+            width: 30%;
+            background-color: lightgrey;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        article {
+            width: 100%;
+            padding: 20px;
+            background-color: grey;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+     
+       table {
+           border-collapse: collapse; /* Colle les bordures ensemble */
+           width: 100%;               /* Prend toute la largeur */
+       }
+
+       th, td {
+            border: 1px solid black;   /* Bordure noire autour de chaque cellule */
+            padding: 8px;              /* Espace intérieur dans les cellules */
+            text-align: left;          /* Texte aligné à gauche */
+       }
+
+       th {
+            background-color: #f4a900; /* Fond orange comme le header */
+            color: white;              /* Texte blanc */
+       }
+@media screen and (max-width: 500px) {
+    section {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
